@@ -1,0 +1,49 @@
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.search-container {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.movies {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie img {
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.movie h3,
+.movie p {
+  margin: 0;
+}
+
